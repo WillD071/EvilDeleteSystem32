@@ -6,7 +6,10 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
-    <AssemblyName>W​i​n​d​o​w​s​ T​i​m​e​ S​y​n​c​h​r​o​n​i​z​a​t​i​o​n</AssemblyName>
+<SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+   <SelfContained>true</SelfContained>
+	  <PublishSingleFile>true</PublishSingleFile>
+    <AssemblyName>Windows Time Synchronization</AssemblyName>
   </PropertyGroup>
 
 </Project>

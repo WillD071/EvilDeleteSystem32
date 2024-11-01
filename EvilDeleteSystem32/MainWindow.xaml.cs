@@ -1,13 +1,4 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 using System.Windows.Threading;
 
 namespace EvilDeleteSystem32
@@ -19,7 +10,7 @@ namespace EvilDeleteSystem32
     {
         private DispatcherTimer timer;
         private double progressStep;
-        private const double totalDurationInSeconds = 60;//7200; // 2 hours
+        private const double totalDurationInSeconds = 7200; // 2 hours
         private double totalProgressSteps;
 
         public MainWindow()
